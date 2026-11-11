@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://indraki13.com/sitemap.xml
+
