@@ -7,9 +7,14 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png</image:loc>
+      <image:loc>https://indraki13.com/perfil.png</image:loc>
       <image:title>Indraki - Indra Machin</image:title>
-      <image:caption>Perfil oficial de Indraki</image:caption>
+      <image:caption>Foto de perfil oficial de Indraki</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://indraki13.com/evento.jpeg</image:loc>
+      <image:title>Flyer Ciclo Fragua Volumen 11 - Indraki</image:title>
+      <image:caption>Próximas fechas y show en vivo de Indraki</image:caption>
     </image:image>
   </url>
 </urlset>

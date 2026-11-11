@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indraki | Enlaces Oficiales</title>
     <meta name="description" content="Sitio oficial de Indraki (@indraki13). Cantante, rapera, compositora, diseñadora de portadas y dirección de arte. Desde Traslasierra, Córdoba.">
 
-    <!-- Metadatos Básicos y SEO -->
+    <!-- Metadatos Open Graph Prioritarios (WhatsApp, Instagram, Facebook, LinkedIn, Telegram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Indraki">
+    <meta property="og:title" content="Indraki | Enlaces Oficiales">
+    <meta property="og:description" content="Sitio oficial de Indraki (@indraki13). Cantante, rapera, compositora, diseñadora de portadas y dirección de arte. Desde Traslasierra, Córdoba.">
+    <meta property="og:url" content="https://indraki13.com/">
+
+    <!-- Miniatura Oficial para Redes (perfil.png - 300x300 px, 223 KB) -->
+    <meta property="og:image" content="https://indraki13.com/perfil.png">
+    <meta property="og:image:secure_url" content="https://indraki13.com/perfil.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="Indraki">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- Fallback secundario directo por si el dominio o CDN tiene latencia -->
+    <meta property="og:image" content="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
+    <link rel="image_src" href="https://indraki13.com/perfil.png">
+
+    <!-- Twitter Cards (Formato Summary para imagen cuadrada 1:1 de 300x300) -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Indraki | Enlaces Oficiales">
+    <meta name="twitter:description" content="Sitio oficial de Indraki (@indraki13). Cantante, rapera, compositora, diseñadora de portadas y dirección de arte. Desde Traslasierra, Córdoba.">
+    <meta name="twitter:image" content="https://indraki13.com/perfil.png">
+    <meta name="twitter:image:alt" content="Indraki">
+
+    <!-- Favicon & Iconos de Aplicación -->
+    <link rel="icon" type="image/png" href="perfil.png">
+    <link rel="apple-touch-icon" href="perfil.png">
+    <link rel="canonical" href="https://indraki13.com/">
+
+    <!-- Metadatos de Autor & Palabras Clave -->
     <meta name="author" content="Indra Machin (Indraki)">
     <meta name="keywords" content="Indraki, Indra Machin, indraki13, Traslasierra, Córdoba, Rap Femenino, Poesía, Hip Hop Argentina, Artista Visual, Villa de Las Rosas, Música Urbana, Cypher JoMa Sessions">
 
@@ -162,30 +195,6 @@
       ]
     }
     </script>
-
-    <!-- Metadatos Open Graph (WhatsApp, Instagram, Facebook, LinkedIn) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://indraki13.com/">
-    <meta property="og:title" content="Indraki | Enlaces Oficiales">
-    <meta property="og:description" content="Sitio oficial de Indraki (@indraki13). Cantante, rapera, compositora, diseñadora de portadas y dirección de arte. Desde Traslasierra, Córdoba.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1080">
-    <meta property="og:image:height" content="1080">
-    <meta property="og:image:alt" content="Indraki">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://indraki13.com/">
-    <meta name="twitter:title" content="Indraki | Enlaces Oficiales">
-    <meta name="twitter:description" content="Sitio oficial de Indraki (@indraki13). Cantante, rapera, compositora, diseñadora de portadas y dirección de arte. Desde Traslasierra, Córdoba.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="perfil.png">
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
-    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/indraki13/indra-machin/main/perfil.png">
 
     <!-- Tipografías: Neo-Grotesk Display (Plus Jakarta Sans 900 ExtraBold) + Tech/Y2K (VT323, Syne, Outfit) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -483,31 +492,7 @@
                 </div>
             </a>
 
-            <!-- Enlace 2: Beatmaker Showcase (Abre Modal de Beats) -->
-            <button type="button" class="link-card" onclick="openModal('modal-beats')">
-                <div class="link-card-left">
-                    <div class="theme-icon-box">
-                        <i class="fa-solid fa-sliders"></i>
-                    </div>
-                    <div class="link-card-content">
-                        <div class="link-title-row">
-                            <h2 class="link-title">Beatmaker Showcase</h2>
-                            <div class="wave-indicator" aria-hidden="true">
-                                <span class="wave-bar"></span>
-                                <span class="wave-bar"></span>
-                                <span class="wave-bar"></span>
-                                <span class="wave-bar"></span>
-                            </div>
-                        </div>
-                        <p class="link-subtitle">Escuchar beats, instrumentales &amp; producciones</p>
-                    </div>
-                </div>
-                <div class="link-action-icon">
-                    <i class="fa-solid fa-compact-disc"></i>
-                </div>
-            </button>
-
-            <!-- Enlace 3: Próximas Fechas (Abre Modal de Fechas y Cuenta Regresiva) con Cinta de Acceso al Flyer -->
+            <!-- Enlace 2: Próximas Fechas (Abre Modal de Fechas y Cuenta Regresiva) con Cinta de Acceso al Flyer -->
             <div class="link-card-tape-wrapper">
                 <button type="button" class="card-tape-ribbon" onclick="openFlyerLightbox(event)" title="Abrir Flyer Oficial (evento.jpeg)">
                     <i class="fa-solid fa-ticket"></i>
@@ -819,57 +804,7 @@
         </div>
     </div>
 
-    <!-- Modal 3: Beatmaker Showcase (Catálogo de Pistas de Muestra) -->
-    <div id="modal-beats" class="modal-root" aria-hidden="true" role="dialog" aria-labelledby="modal-beats-title">
-        <div class="modal-backdrop" onclick="closeModal('modal-beats')"></div>
-        <div class="modal-dialog">
-            <button type="button" class="modal-close-btn" aria-label="Cerrar modal" onclick="closeModal('modal-beats')">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <div class="modal-header">
-                <div class="modal-avatar-mini">
-                    <i class="fa-solid fa-compact-disc"></i>
-                </div>
-                <div>
-                    <h3 id="modal-beats-title" class="modal-title">Beatmaker Showcase</h3>
-                    <p class="modal-tagline">Instrumentales &amp; Producción</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <p>Explorá instrumentales y ritmos creados por el productor. Producción musical, beatmaking, diseño sonoro, mezcla y masterización.</p>
-
-                <!-- Track 1 de Muestra -->
-                <div class="track-row">
-                    <button type="button" class="track-play-btn" onclick="toggleSimulatedPlay(1)" aria-label="Reproducir pista 1">
-                        <i class="fa-solid fa-play" id="track-icon-1"></i>
-                    </button>
-                    <div class="track-info">
-                        <div class="track-title-row">
-                            <strong class="track-name">INSTRUMENTAL 101</strong>
-                            <span class="link-badge">Boom Bap</span>
-                        </div>
-                        <span class="track-sub">Producción &amp; Mezcla: Nombre Artista</span>
-                    </div>
-                </div>
-
-                <!-- Track 2 de Muestra -->
-                <div class="track-row">
-                    <button type="button" class="track-play-btn" onclick="toggleSimulatedPlay(2)" aria-label="Reproducir pista 2">
-                        <i class="fa-solid fa-play" id="track-icon-2"></i>
-                    </button>
-                    <div class="track-info">
-                        <div class="track-title-row">
-                            <strong class="track-name">INSTRUMENTAL 505</strong>
-                            <span class="link-badge">Lo-Fi / Soul</span>
-                        </div>
-                        <span class="track-sub">Producción &amp; Mezcla: Nombre Artista</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal 4: Lightbox / Visualizador del Flyer Oficial (evento.jpeg) -->
+    <!-- Modal 3: Lightbox / Visualizador del Flyer Oficial (evento.jpeg) -->
     <div id="modal-flyer" class="modal-root" aria-hidden="true" role="dialog" aria-labelledby="modal-flyer-title">
         <div class="modal-backdrop" onclick="closeModal('modal-flyer')"></div>
         <div class="modal-dialog modal-flyer-dialog">
@@ -1089,30 +1024,6 @@
                 document.body.style.overflow = '';
             }
         });
-
-        /* Simulación de Reproductor de Pistas */
-        let activePlayingId = null;
-        function toggleSimulatedPlay(trackId) {
-            const icon = document.getElementById('track-icon-' + trackId);
-            if (activePlayingId === trackId) {
-                icon.classList.remove('fa-pause');
-                icon.classList.add('fa-play');
-                activePlayingId = null;
-                showToast('Pista pausada');
-            } else {
-                if (activePlayingId) {
-                    const prevIcon = document.getElementById('track-icon-' + activePlayingId);
-                    if (prevIcon) {
-                        prevIcon.classList.remove('fa-pause');
-                        prevIcon.classList.add('fa-play');
-                    }
-                }
-                icon.classList.remove('fa-play');
-                icon.classList.add('fa-pause');
-                activePlayingId = trackId;
-                showToast('Reproduciendo pista de muestra ' + trackId + ' (Placeholder)');
-            }
-        }
 
         /* Cuenta regresiva en vivo hacia el 20 de Noviembre a las 20:00 HS */
         function updateEventCountdown() {
